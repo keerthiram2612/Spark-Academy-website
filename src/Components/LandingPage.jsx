@@ -166,12 +166,12 @@ export default function LandingPage() {
             </h3>
             <a
               href="#get-started"
-              className="btn btn-danger btn-lg"
+              className="btn btn-danger btn-lg text-center"
               style={{
                 margin: "25px",
                 padding: "12px 30px",
                 borderRadius: "30px",
-                
+                textAlign:"center"
               }}
             >
               GET STARTED
