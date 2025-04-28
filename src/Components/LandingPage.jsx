@@ -6,6 +6,7 @@ import AboutPage from "./AboutPage";
 import GettingStarted from "./GettingStarted";
 import Footer from "./Footer";
 import CourseContent from "./CourseContent";
+import "./Landingpage.css";
 
 export default function LandingPage() {
   const location = useLocation();
@@ -167,25 +168,26 @@ export default function LandingPage() {
               href="#get-started"
               className="btn btn-danger btn-lg"
               style={{
-                marginTop: "25px",
+                margin: "25px",
                 padding: "12px 30px",
                 borderRadius: "30px",
+                
               }}
             >
               GET STARTED
             </a>
           </div>
 
-          <div className="col-md-6 text-center">
-            <img
+          <div className="col-md-6 text-center get-image text-center">
+            <img 
               src={image1}
-              className="img-responsive img-rounded center-block"
+              className="img-responsive img-rounded center-block text-center"
               alt="Instructor"
               style={{
                 maxWidth: "75%",
                 height: "auto",
                 boxShadow: "0 5px 20px rgba(0,0,0,0.2)",
-                borderRadius: "15px",
+                borderRadius: "15px"
               }}
             />
           </div>
