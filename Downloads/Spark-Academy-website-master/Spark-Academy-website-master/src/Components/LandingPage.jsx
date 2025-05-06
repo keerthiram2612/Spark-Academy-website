@@ -104,13 +104,28 @@ export default function LandingPage() {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
+            <span style={{
+  fontSize: '24px',
+  fontWeight: 'bold',
+  color: '#d32f2f',
+  fontFamily: 'Poppins, sans-serif',
+  letterSpacing: '1px',
+  marginLeft: '20px',
+  marginTop: '20px',
+ 
+  alignItems:'center'
+}}>
+  Spark IAS Academy
+</span>
+
+
             <a className="navbar-brand" href="/">
               <img
                 src={screen1}
                 alt="Logo"
                 style={{
-                  width: "220px",
-                  marginTop: "-15px",
+                  width: "120px",
+                  marginTop: "-5px",
                   display: "inline-block",
                 }}
               />
