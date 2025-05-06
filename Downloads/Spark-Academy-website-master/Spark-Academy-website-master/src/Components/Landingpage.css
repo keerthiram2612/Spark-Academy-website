@@ -1,0 +1,11 @@
+@media(max-width:640px){
+   h1{
+     font-size: 20px;
+  }
+  .get-image img{
+     margin-top: 20px;
+  }
+}
+
+
+
