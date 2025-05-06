@@ -212,29 +212,30 @@ export default function LandingPage() {
         {/* Content */}
       </div>
 
-      {/* WhatsApp Floating Button */}
-      <a
-        href="https://wa.me/122"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          position: "fixed",
-          bottom: "20px",
-          left: "20px",
-          backgroundColor: "#25D366",
-          color: "white",
-          padding: "16px",
-          borderRadius: "50%",
-          fontSize: "24px",
-          zIndex: 1000,
-          boxShadow: "0px 4px 12px rgba(0,0,0,0.4)",
-          transition: "all 0.3s ease",
-        }}
-        onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#20b358")}
-        onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#25D366")}
-      >
-        <i className="glyphicon glyphicon-comment"></i>
-      </a>
+       {/* WhatsApp Floating Button */}
+<a
+  href="https://wa.me/917845239889"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    position: "fixed",
+    bottom: "20px",
+    left: "20px",
+    backgroundColor: "#25D366",
+    color: "white",
+    padding: "16px",
+    borderRadius: "50%",
+    fontSize: "24px",
+    zIndex: 1000,
+    boxShadow: "0px 4px 12px rgba(0,0,0,0.4)",
+    transition: "all 0.3s ease",
+  }}
+  onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#20b358")}
+  onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#25D366")}
+>
+  <i className="glyphicon glyphicon-comment"></i>
+</a>
+
 
       <Footer />
     </div>
