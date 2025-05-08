@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom"; // Needed for active links
 import image1 from "../assets/image1.jpg";
-import screen1 from "../assets/screen.png";
+import screen1 from "../assets/spark-logo.png";
 import AboutPage from "./AboutPage";
 import GettingStarted from "./GettingStarted";
 import Footer from "./Footer";
@@ -109,7 +109,7 @@ export default function LandingPage() {
                 src={screen1}
                 alt="Logo"
                 style={{
-                  width: "220px",
+                  width: "60px",
                   marginTop: "-15px",
                   display: "inline-block",
                 }}
