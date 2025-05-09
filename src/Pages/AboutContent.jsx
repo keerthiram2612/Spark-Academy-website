@@ -1,5 +1,5 @@
 import React from 'react'
-import screen1 from "../assets/screen.png";
+import screen1 from "../assets/spark-logo.png";
 import image2 from "../assets/image.png"
 export default function AboutContent() {
   return (
@@ -23,12 +23,12 @@ export default function AboutContent() {
                                  src={screen1}
                                  alt="Logo"
                                  style={{
-                                   width: "220px",
+                                   width: "60px",
                                    marginTop: "-15px",
                                    display: "inline-block",
                                  }}
                                />
-                             </a>
+                             </a><h5>Spark Academy</h5>
                            </div>
                            <div className="collapse navbar-collapse" id="myNavbar">
                              <ul className="nav navbar-nav navbar-right">
